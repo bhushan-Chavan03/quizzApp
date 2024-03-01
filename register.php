@@ -42,10 +42,10 @@
                         //Server settings
                         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
                         $mail->isSMTP();                                            //Send using SMTP
-                        $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+                        $mail->Host       = 'mail.opspvtltd.com';                     //Set the SMTP server to send through
                         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                        $mail->Username   = 'bhushanc2003@gmail.com';                     //SMTP username
-                        $mail->Password   = 'vdqvgbnxrgbxtedz';                               //SMTP password
+                        $mail->Username   = 'verification@opspvtltd.com';                     //SMTP username
+                        $mail->Password   = 'Admin@$#!65456';                               //SMTP password
                         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
                         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
