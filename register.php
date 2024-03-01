@@ -56,7 +56,7 @@
                         //Content
                         $mail->isHTML(true);                                  //Set email format to HTML
                         $mail->Subject = 'no reply';
-                        $mail->Body    = 'Here is the verification link <b><a href="http://localhost/QuizzApp/?verification='.$code.'">http://localhost/login/?verification='.$code.'</a></b>';
+                        $mail->Body    = 'Here is the verification link <b><a href="https://opspvtltd.com/online.opspvtltd.com/?verification='.$code.'">https://opspvtltd.com/online.opspvtltd.com/?verification='.$code.'</a></b>';
 
                         $mail->send();
                         echo 'Message has been sent';
@@ -115,8 +115,8 @@
                     </div>
                     <div class="content-wthree">
                         <h2>Register Now</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                        <?php echo $msg; ?>
+<!--                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+ -->                        <?php echo $msg; ?>
                         <form action="" method="post">
                             <input type="text" class="name" name="name" placeholder="Enter Your Name" value="<?php if (isset($_POST['submit'])) { echo $name; } ?>" required>
                             <input type="email" class="email" name="email" placeholder="Enter Your Email" value="<?php if (isset($_POST['submit'])) { echo $email; } ?>" required>
