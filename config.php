@@ -1,7 +1,12 @@
 <?php
 
-$conn = mysqli_connect("https://server5.dnspark.in:2083/cpsess6276711494/3rdparty/phpMyAdmin/index.php?route=/database/structure&db=opspvtlt_db_quiz", "root", "", "opspvtlt_db_quiz");
+$conn = mysqli_connect("65.109.122.227", "opspvtlt_user_quiz2", "Admin@$#!65456", "opspvtlt_db_quiz2");
 
 if (!$conn) {
     echo "Connection Failed";
 }
+
+
+
+
+
